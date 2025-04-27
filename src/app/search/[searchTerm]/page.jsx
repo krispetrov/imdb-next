@@ -1,5 +1,7 @@
+'use client';
 import React from "react";
 import Results from "@/components/Results";
+
 
 export default async function SearchPage({ params }) {
   const searhTerm = params.searchTerm;
